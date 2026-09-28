@@ -1,0 +1,12 @@
+datetime
+boto3
+python-jose
+pytest>=7
+moto==3.1.19
+pytest-freezegun
+requests
+
+# Cognito Auth Command: 
+    # aws cognito-idp initiate-auth --auth-flow USER_PASSWORD_AUTH --client-id    
+    # 55vs3r002nacq2aebh9lqfl8dq --auth-parameters USERNAME=<user@example.com>,PASSWORD=<password>    
+    # --query 'AuthenticationResult.IdToken' --output text
